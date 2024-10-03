@@ -3,7 +3,7 @@ entries:
   cadence:
   - apiVersion: v1
     appVersion: 0.24.0
-    created: "2024-10-03T17:46:42.703026+08:00"
+    created: "2024-10-03T21:53:36.608601+08:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -31,4 +31,64 @@ entries:
     urls:
     - cadence-0.24.2.tgz
     version: 0.24.2
-generated: "2024-10-03T17:46:42.700583+08:00"
+  - apiVersion: v1
+    appVersion: 0.23.2
+    created: "2024-10-03T21:53:36.606707+08:00"
+    dependencies:
+    - condition: cassandra.enabled
+      name: cassandra
+      repository: https://charts.helm.sh/incubator
+      version: ^0.13.1
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      version: ^1.2.0
+    description: Cadence is a distributed, scalable, durable, and highly available
+      orchestration engine to execute asynchronous long-running business logic in
+      a scalable and resilient way.
+    digest: b76207dc124fe255902f640f1254a60055af73820174274a1c82c0ec4f88ea85
+    home: https://cadenceworkflow.io/
+    icon: https://raw.githubusercontent.com/uber/cadence-web/master/client/assets/logo.svg
+    keywords:
+    - cadence
+    - workflow
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: cadence
+    sources:
+    - https://github.com/uber/cadence
+    urls:
+    - cadence-0.23.0.tgz
+    version: 0.23.0
+  - apiVersion: v1
+    appVersion: 0.9.5
+    created: "2024-10-03T21:53:36.611979+08:00"
+    dependencies:
+    - condition: cassandra.enabled
+      name: cassandra
+      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+      version: ^0.13.1
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.2.0
+    description: Cadence is a distributed, scalable, durable, and highly available
+      orchestration engine to execute asynchronous long-running business logic in
+      a scalable and resilient way.
+    digest: 2a888912486946fa34b0776aba6c470186ada5a75208c7dcd2b289c1236fbff9
+    home: https://cadenceworkflow.io/
+    icon: https://raw.githubusercontent.com/uber/cadence-web/master/client/assets/logo.svg
+    keywords:
+    - cadence
+    - workflow
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: cadence
+    sources:
+    - https://github.com/uber/cadence
+    urls:
+    - cadence-0.6.0.tgz
+    version: 0.6.0
+generated: "2024-10-03T21:53:36.604338+08:00"
