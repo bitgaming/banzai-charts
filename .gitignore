@@ -1,5 +1,5 @@
 .idea
 *.lock
-*.tgz
-index.yaml
+# *.tgz
+# index.yaml
 .DS_Store
