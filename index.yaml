@@ -3,7 +3,7 @@ entries:
   cadence:
   - apiVersion: v1
     appVersion: 0.24.0
-    created: "2024-10-03T21:53:36.608601+08:00"
+    created: "2024-10-07T10:06:02.405016+08:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -33,7 +33,7 @@ entries:
     version: 0.24.2
   - apiVersion: v1
     appVersion: 0.23.2
-    created: "2024-10-03T21:53:36.606707+08:00"
+    created: "2024-10-07T10:06:02.402522+08:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -63,7 +63,7 @@ entries:
     version: 0.23.0
   - apiVersion: v1
     appVersion: 0.9.5
-    created: "2024-10-03T21:53:36.611979+08:00"
+    created: "2024-10-07T10:06:02.408588+08:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -91,4 +91,4 @@ entries:
     urls:
     - cadence-0.6.0.tgz
     version: 0.6.0
-generated: "2024-10-03T21:53:36.604338+08:00"
+generated: "2024-10-07T10:06:02.399866+08:00"
